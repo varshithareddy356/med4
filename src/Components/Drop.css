@@ -1,0 +1,260 @@
+
+.dropbtn {
+    background-color: white;
+   
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: relative;
+    bottom: 5px;
+    height: 5px;
+    text-align: center;
+  }
+  
+  
+  .arrow {
+    display: inline-block;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+
+  }
+  
+  
+  .dropdown.open .dropdown-content {
+    display: block;
+  }
+  
+  
+  .dropdown.open .dropbtn {
+    color: black;
+    background-color: white;
+  }
+
+
+
+
+
+.job{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 370px;
+}
+.avail{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 460px;
+}
+  .create{
+   box-Shadow: -1px 2px 2px 2px grey;
+   height: 50px;
+   position: sticky;
+   top: 0px;
+   z-index: 99999;
+   margin-top: -10px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   background-color: white;
+  }
+.div1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin-top: 10px;
+ height: 40px;
+}
+.home{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 230px;
+}
+.hotels{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 220px;
+ 
+}
+.cars{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 290px;
+ 
+}
+.getthe{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  right: 390px;
+}
+#eye1{
+  font-size: 25px;
+  height: 20px;
+  margin: 5px;
+}
+.div2{
+  position: absolute;
+  right: 150px;
+ 
+}
+.button1{
+  border: "1px solid red";
+  border-radius: 25px;
+  
+  color: red;
+  background-color: white;
+ position: relative;
+ bottom: 10px;
+left: 45px;
+}
+.div3{
+  position: absolute;
+  top: 50%;
+  left:55%;
+  transform: translate(-50%,-50%);
+  box-shadow: -1px 2px 2px 2px grey;
+  width: 460px;
+  overflow-y: auto;
+  max-height: 400px;
+ background-color: white;
+
+}
+.p1{
+  box-shadow: -1px 2px 2px 2px grey;
+  height: 45px;
+  justify-content: center;
+  display: flex;
+  margin-top: 0px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}#id2{
+  position: absolute;
+  top: 75px;
+  right: 305px;
+  font-size: 25px;
+  text-indent: 150px;
+  
+}
+.input11{
+  text-align: center;
+  width: 400px;
+  height: 30px;
+ margin: 10px;
+}
+.hr1{
+  width: 400px;
+  margin: 10px;
+ 
+}
+.button2{
+  width: 400px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: red;
+  border: none;
+  margin: 10px;
+
+}
+.anchor{
+  text-decoration: none;
+  text-align: center;
+  margin-left: 100px;
+}
+.button3{
+  margin-left: 90px;
+  border: 1px solid red;
+  border-radius: 25px;
+  width: 126px;
+  height: 25px;
+}
+.button4{
+  border:1px solid red;
+  
+   border-radius: 25px;
+   color: white;
+   background-color: red;
+   margin: 10px;
+}
+.div4{
+  position: fixed;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+  box-shadow: -1px 2px 2px 2px grey;
+width: 460px;
+height: 480px;
+overflow-y: auto;
+max-height: 400px;
+background-color: white;
+}
+.p2{
+  color: green;
+  margin: 20px;
+ 
+}
+#id3{
+  position: absolute;
+  top: 15px;
+  font-size: 25px;
+  text-indent: 150px;
+}
+.first{
+  text-align: center;
+  width: 400px;
+  height: 30px;
+  margin: 10px;
+}
+.button5{
+  width: 400px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: red;
+  border: none;
+  margin: 10px;
+}
+.button6{
+  margin-left: 110px;
+  border: 1px solid red;
+  border-radius: 25px;
+  width: 126px;
+  height: 25px;
+}
